@@ -1,0 +1,201 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button{
+    background: #ECA63B;
+    color: #ffffff;
+    border-color: #ECA63B;
+    border-radius: 3px;
+    height: 42px;
+    width: 225px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    padding: 9px 16px;
+}
+
+.button:hover{
+    color: #ffffff;
+}
+
+.landingSection{
+    background-image: url('./assets/gradient-violet-bg.jpg');
+    color: #ffffff;
+    /* font: normal 14px/1.8 "Roboto", sans-serif; */
+}
+
+.navBar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 20px;
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'Odibee Sans', ;
+    background: rgba(76, 175, 80, 0.3);
+    /* background-color: #1B8D89 0.3; */
+    transition: top 0.3s ease-in-out;
+}
+
+.navLogo{
+    height: 50px;
+    width: 100px;
+    margin-right: 670px;
+}
+
+.navLink{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; 
+}
+
+.navLinkPremium{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; 
+}
+
+.navLink:hover{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; 
+}
+
+.navLinkPremium:hover{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.landingImg{
+    height: 200px;
+    width: 350px;
+}
+
+.featuredInSection{
+    background: #f4fafa;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.citation{
+    float: right;
+    margin-right: 280px;
+}
+
+.whatIsKastSection{
+    background-image: url('./assets/green-bg.jpg');
+    color: #ffffff;
+}
+
+.premiumFeaturesSection{
+    background: #29303D;
+    color: #ffffff;
+    margin-top: -2px;
+}
+
+.learnMoreLink{
+    color: #ECA63B;
+}
+
+.learnMoreLink:hover{
+    color: #ECA63B;
+}
+
+.premiumDiamond{
+    height: 50px;
+    width: 50px;
+}
+
+.premiumFeaturesCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    align-items: stretch;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 1064px;
+    margin: 0 auto 75px;
+}
+
+.premiumFeaturesCard{
+    background-color: #2B2B33;
+    border-radius: 12px;
+    max-width: 248px;
+    padding: 24px;
+}
+
+.closingSection{
+    background: #f4fafa;
+}
+
+.kastAccessContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-column-gap: 1px; */
+    /* grid-row-gap: 24px; */
+    margin-bottom: 75px;
+}
+
+.kastAccess{
+    height: 350px;
+    width: 350px;
+}
+
+.footerSection{
+    color: #ffffff;
+    background: #1B8C88;
+}
+
+.footerSection a{
+    color: #ffffff;
+}
+
+.footerLinks{
+    margin-left: 5vw;
+}
+
+.footerLinks a{
+    font-size: 14px;
+}
+
+.socialMediaIconContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 37vw;
+    margin-right: 37vw;
+    margin-bottom: 75px;
+}
+
+.socialMediaIcon{
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright{
+    font-size: small;
+}
+
+/* Makes the Medium logo */
+/* not sure how yet though...  */
+/* path[Attributes Style] {
+    d: path("M 5 40 V 5 h 35 v 35 H 5 Z m 8.56 -12.627 c 0 0.555 -0.027 
+        0.687 -0.318 1.03 l -2.457 2.985 v 0.396 h 6.974 v -0.396 l -2.456 
+        -2.985 c -0.291 -0.343 -0.344 -0.502 -0.344 -1.03 V 18.42 l 6.127 
+        13.364 h 0.714 l 5.256 -13.364 v 10.644 c 0 0.29 0 0.342 -0.185 0.528 
+        l -1.848 1.796 v 0.396 h 9.19 v -0.396 l -1.822 -1.796 c -0.184 
+        -0.186 -0.21 -0.238 -0.21 -0.528 V 15.937 c 0 -0.291 0.026 -0.344 
+        0.21 -0.528 l 1.823 -1.797 v -0.396 h -6.471 l -4.622 11.542 l -5.203 
+        -11.542 h -6.79 v 0.396 l 2.14 2.64 c 0.239 0.292 0.291 0.37 0.291 
+        0.768 v 10.353 Z");
+} */
