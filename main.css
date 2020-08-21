@@ -1,3 +1,5 @@
+/* --- General --- */
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -20,20 +22,16 @@ body{
     color: #ffffff;
 }
 
-.landingSection{
-    background-image: url('./assets/gradient-violet-bg.jpg');
-    color: #ffffff;
-    /* font: normal 14px/1.8 "Roboto", sans-serif; */
-}
+/* --- Nav Bar --- */
 
 .navBar
 {
     position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     text-align: right;
     padding-top: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     color: #ffffff;
     z-index: 1;
     font-family: 'Odibee Sans', ;
@@ -51,13 +49,10 @@ body{
 .navLink{
     color: #ffffff;
     font-size: 17px;
-    text-decoration: none; 
-}
-
-.navLinkPremium{
-    color: #ffffff;
-    font-size: 17px;
-    text-decoration: none; 
+    text-decoration: none;
+    margin: 5px; 
+    padding-top: 200px;
+    padding-bottom: 2px;
 }
 
 .navLink:hover{
@@ -66,15 +61,48 @@ body{
     text-decoration: none; 
 }
 
+.navLinkPremium{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; 
+    margin-left: 20px;
+}
+
+
 .navLinkPremium:hover{
     color: #ffffff;
     font-size: 17px;
+}
+
+.navLinkOpenKast{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px; 
+    border-style: solid;
+    border-width: thin;
+}
+
+.navLinkOpenKast:hover{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; 
+}
+
+/* --- Landing Section --- */
+
+.landingSection{
+    background-image: url('./assets/gradient-violet-bg.jpg');
+    color: #ffffff;
+    /* font: normal 14px/1.8 "Roboto", sans-serif; */
 }
 
 .landingImg{
     height: 200px;
     width: 350px;
 }
+
+/* --- Featured In Section --- */
 
 .featuredInSection{
     background: #f4fafa;
@@ -89,10 +117,14 @@ body{
     margin-right: 280px;
 }
 
+/* --- What Is Kast Section --- */
+
 .whatIsKastSection{
     background-image: url('./assets/green-bg.jpg');
     color: #ffffff;
 }
+
+/* --- Premium Features Section --- */
 
 .premiumFeaturesSection{
     background: #29303D;
@@ -131,6 +163,8 @@ body{
     padding: 24px;
 }
 
+/* --- Closing Section --- */
+
 .closingSection{
     background: #f4fafa;
 }
@@ -148,6 +182,8 @@ body{
     height: 350px;
     width: 350px;
 }
+
+/* --- Footer --- */
 
 .footerSection{
     color: #ffffff;

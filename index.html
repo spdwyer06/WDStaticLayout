@@ -22,17 +22,43 @@
 <body>
 
     <!-- Nav Bar -->
-    <section class='landingSection'>
-        <div class="navBar">
-            <h4>
-                <a href=""><img class='navLogo' src='./assets/navLogo.png' alt='Kast Logo' /></a>
-                <a class='navLink' href="">About</a>
-                <a class='navLink' href="">Help</a>
-                <a class='navLink' href="">Community</a>
-                <a class='navLinkPremium' href="">Premium</a>
-                <a class='navLink' href="">OPEN KAST</a>
-            </h4>
+    <section class='landingSection' id='top'>
+        <div class='container-fluid navBar'>
+            <div class='row'>
+                <div class='col-md-3'>
+                    <a href="#top"><img class='navLogo' src='./assets/navLogo.png' alt='Kast Logo' /></a>
+                </div>
+                <!-- Offset places a gap between columns (in this case 3 columns) -->
+                <!-- pt-2 sets padding-top: size 2 -->
+                <div class='col-md-1 offset-md-2 pt-2'>
+                    <a class='navLink' href="" target='_blank'>About</a>
+                </div>
+                <div class='col-md-1 pt-2'>
+                    <a class='navLink' href="" target='_blank'>Help</a>
+                </div>
+                <div class='col-md-1 pt-2'>
+                    <a class='navLink' href="" target='_blank'>Community</a>
+                </div>
+                <div class='col-md-1 pt-2'>
+                    <a class='navLinkPremium' href="" target='_blank'>Premium</a>
+                </div>
+                <div class='col-md-2 pt-2'>
+                    <a class='navLinkOpenKast' href="" target='_blank'>Open Kast</a>
+                </div>
+            </div>
         </div>
+
+        <!-- <div class="navBar">
+            <h4>
+                href sends to top of page
+                <a href="#top"><img class='navLogo' src='./assets/navLogo.png' alt='Kast Logo' /></a>
+                <a class='navLink' href="" target='_blank'>About</a>
+                <a class='navLink' href="" target='_blank'>Help</a>
+                <a class='navLink' href="" target='_blank'>Community</a>
+                <a class='navLinkPremium' href="" target='_blank'>Premium</a>
+                <a class='navLink' href="" target='_blank'>OPEN KAST</a>
+            </h4>
+        </div> -->
 
         <!-- Landing Section -->
         <div class="container">
@@ -60,6 +86,7 @@
                 </div>
             </div>
         </div>
+        <!-- Find another solution, margin-bottom on section? -->
         <br />
         <br />
         <br />
